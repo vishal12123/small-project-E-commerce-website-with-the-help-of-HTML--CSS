@@ -1,0 +1,257 @@
+/* Global styles */
+
+* {/* Global styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  color: 
+#333;
+}
+
+/* Header styles */
+
+header {
+  background-color: 
+rgb(13, 242, 123);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: 
+#333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: 
+#f00;
+}
+
+.logo h1 {
+  font-size: 24px;
+}
+
+/* Banner styles */
+
+.banner {
+  background-image: url('https://png.pngtree.com/background/20210712/original/pngtree-modern-double-color-futuristic-neon-background-picture-image_1181573.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #333;
+}
+
+/* Header styles */
+
+header {
+  background-color: rgb(13, 242, 123);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #f00;
+}
+
+.logo h1 {
+  font-size: 24px;
+}
+
+/* Banner styles */
+
+.banner {
+  background-image: url('https://png.pngtree.com/background/20210712/original/pngtree-modern-double-color-futuristic-neon-background-picture-image_1181573.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #2fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.banner h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.banner p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.banner button {
+  background-color: #f00;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.banner button:hover {
+  background-color: #c00;
+}
+
+/* Products styles */
+
+/* product container */
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* product image */
+.product img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* product title */
+.product h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* product description */
+.product p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* product price */
+.product .price {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* product button */
+.product button {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.product button:hover {
+  background-color: #0062cc;
+}
+
+/* product rating */
+.product .rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.product .rating i {
+  color: #ffc107;
+  margin-right: 5px;
+}
+
+.product .rating span {
+  font-size: 16px;
+}
+
+/* product reviews */
+.product .reviews {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.product .reviews a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.product .reviews a:hover {
+  text-decoration: underline;
+}
+footer{
+  border:none;
+  margin: 20px;
+  padding: 5px;
+  background-color: blue;
+  text-align: center;
+  
+}
+.foot a:hover{
+  color:black;
+  
+}
+.foot p:hover{
+  color:red;
+}
